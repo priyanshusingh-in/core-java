@@ -1,6 +1,6 @@
 package com.priyanshusingh.corejava.datatypes;
 
-public class Test {
+public class DataTypes {
     public static void main(String[] args) {
         System.out.println("Hello World");
 
@@ -25,7 +25,15 @@ public class Test {
 
         //Characters
         char gradeCharacter = 'A';
-
+        System.out.println(gradeCharacter);
+        System.out.println((int) gradeCharacter);
+        //Print a heart
+        System.out.println((char) 10084);
+        System.out.println("Character Range: ");
+        System.out.println("------------------");
+        System.out.println("Minimum character value: " + (int) Character.MIN_VALUE);
+        System.out.println("Maximum character value: " + (int) Character.MAX_VALUE);
+        // Common ASCII examples (0-127 range)
 
 
     }
