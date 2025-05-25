@@ -2,8 +2,8 @@ package com.priyanshusingh.corejava.datatypes;
 
 public class WideningConversion {
     public static void main(String[] args) {
-        System.out.println("Widening Conversion Examples:");
-        System.out.println("------------------------------");
+        System.out.println("Widening Conversion(Implicit) Examples:");
+        System.out.println("----------------------------------------");
         byte byteValue = 10; // 1 byte
         short shortValue = byteValue; // 2 byte
         int intValue = shortValue; // 4 byte
