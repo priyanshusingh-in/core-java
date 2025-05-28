@@ -15,7 +15,5 @@ public class StringPoolVsHeap {
         System.out.println(str1 == str2); //true (same reference in pool)
         System.out.println(str1 == str3); //false (different objects)
         System.out.println(str1.equals(str3)); //true (same content)
-
-
     }
 }

@@ -5,6 +5,5 @@ public class StringClass {
         //String creation methods
         String s1 = "Hello World!";                     //String literal
         String s2 = new String("Hello World!"); //Using constructor
-
     }
 }
