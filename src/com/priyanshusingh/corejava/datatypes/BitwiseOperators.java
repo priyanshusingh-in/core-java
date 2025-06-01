@@ -33,7 +33,7 @@ public class BitwiseOperators {
 
         //RIGHT SHIFT (>>)
         System.out.println("RIGHT SHIFT OPERATOR: ");
-        System.out.println("5 >> 1 = " + (a >> 1));
+        System.out.println("5 >> 1 = " + (5 >> 1));
         System.out.println("Binary: " + Integer.toBinaryString(a >> 1));
 
 
