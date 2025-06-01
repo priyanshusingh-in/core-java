@@ -5,6 +5,8 @@ public class Car {
     String color;
     int speed;
 
+    
+
     //methods
     void drive() {
         System.out.println("Car is driving");
