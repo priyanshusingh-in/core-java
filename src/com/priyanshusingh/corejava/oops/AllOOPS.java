@@ -5,12 +5,13 @@ package com.priyanshusingh.corejava.oops;
 public class AllOOPS {
     public static void main(String[] args) {
         //creating an object(instance) of class Car
-        Car obj = new Car();
+        Car obj = new Car("Green");
         //An Object is an instance of a class. It represents a real-world entity and has attributes and behaviors.
         //attributes: fields
-        obj.color = "Red";
+        //obj.color = "Red";
         obj.speed = 100;
         //behaviors: methods
+        System.out.println(obj.color);
         obj.drive();
     }
 }

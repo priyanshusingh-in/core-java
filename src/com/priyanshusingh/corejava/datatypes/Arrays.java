@@ -21,7 +21,7 @@ public class Arrays {
         }
 
         for(int number : numbers) {
-            System.out.println(number);
+            System.out.print(number+" ");
         }
     }
 }

@@ -5,10 +5,13 @@ public class Car {
     String color;
     int speed;
 
-    
+    public Car(String color) {
+        this.color = color;
+    }
+
 
     //methods
-    void drive() {
+    void drive( ) {
         System.out.println("Car is driving");
     }
 }
