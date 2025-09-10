@@ -9,6 +9,7 @@ public class Arrays {
         // same type of data and fixed size
         int[] numbers;
         //int numbers[];
+        int[] a = new int[5];
         // int[] values = {1,3,4,34,535,34,2323,};
 
         System.out.println("Enter the number of elements in the array: ");
